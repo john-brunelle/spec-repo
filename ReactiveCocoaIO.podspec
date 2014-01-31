@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "Reactive file management framework built on top of ReactiveCocoa."
   s.homepage     = "https://github.com/ReactiveCocoa/ReactiveCocoaIO"
   s.author       = { "ReactiveCocoa" => "ReactiveCocoa" }
-  s.source       = { :git => "https://github.com/ReactiveCocoa/ReactiveCocoaIO.git", :commit => "a54ecd2f070e087ae491e4ded44ea141c509bd58" }
+  s.source       = { :git => "https://github.com/ReactiveCocoa/ReactiveCocoaIO.git"}
   s.license      = 'Simplified BSD License'
   s.description  = "ReactiveCocoaIO is a framework for accessing and manipulating a file system through signals, based on ReactiveCocoa."
  
@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
     #import <libkern/OSAtomic.h>
     #import <ReactiveCocoaIO/ReactiveCocoaIO.h>
     #import <ReactiveCocoa/ReactiveCocoa.h>
+    #import <ReactiveCocoa/EXTScope.h>
  
   #endif /* __OBJC__ */
   EOS
